@@ -1,18 +1,18 @@
 ---
-date: 2022-01-02
+date: 2024-9-23
 category:
-  - CategoryA
+  - java
 tag:
-  - tag A
-  - tag B
+  - WWI
+archive: true
 ---
 
-# Article 2
-
+# Archive Article1
+Java
 ## Heading 2
 
-Here is the content.
+Java是一门面向对象编程的语言
 
 ### Heading 3
 
-Here is the content.
+包学Java的啊
