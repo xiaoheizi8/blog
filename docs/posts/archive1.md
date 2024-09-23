@@ -1,7 +1,7 @@
 ---
-date: 1998-01-01
+date: 2024-9-23
 category:
-  - History
+  - java
 tag:
   - WWI
 archive: true
@@ -11,8 +11,8 @@ archive: true
 
 ## Heading 2
 
-Here is the content.
+Java是一门面向对象编程的语言
 
 ### Heading 3
 
-Here is the content.
+包学Java的啊
