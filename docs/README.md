@@ -1,7 +1,8 @@
 ---
 home: true
 title: 博客主页
-heroImage: https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?rs=1&pid=ImgDetMain
+heroImage: https://reactjs.org/logo-og.png
+
 actions:
   - text: 快速启动
     link: /getting-started.html

@@ -32,6 +32,7 @@ export const routes = Object.fromEntries([
   ["/tag/wwii/", { loader: () => import(/* webpackChunkName: "tag_wwii_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/wwii/index.html.js"), meta: {"title":"Tag WWII"} }],
   ["/tag/%E7%AC%AC%E4%B8%80%E4%B8%AAtag/", { loader: () => import(/* webpackChunkName: "tag_第一个tag_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/第一个tag/index.html.js"), meta: {"title":"Tag 第一个tag"} }],
   ["/tag/%E7%AC%AC%E4%BA%8C%E4%B8%AA/", { loader: () => import(/* webpackChunkName: "tag_第二个_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/第二个/index.html.js"), meta: {"title":"Tag 第二个"} }],
+  ["/tag/tagnew/", { loader: () => import(/* webpackChunkName: "tag_tagnew_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/tagnew/index.html.js"), meta: {"title":"Tag tagnew"} }],
   ["/tag/tag-c/", { loader: () => import(/* webpackChunkName: "tag_tag-c_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/tag-c/index.html.js"), meta: {"title":"Tag tag C"} }],
   ["/tag/tag-d/", { loader: () => import(/* webpackChunkName: "tag_tag-d_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/tag-d/index.html.js"), meta: {"title":"Tag tag D"} }],
   ["/tag/test/", { loader: () => import(/* webpackChunkName: "tag_test_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/test/index.html.js"), meta: {"title":"Tag test"} }],
@@ -40,7 +41,6 @@ export const routes = Object.fromEntries([
   ["/tag/tag-e/", { loader: () => import(/* webpackChunkName: "tag_tag-e_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/tag-e/index.html.js"), meta: {"title":"Tag tag E"} }],
   ["/article/", { loader: () => import(/* webpackChunkName: "article_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/article/index.html.js"), meta: {"title":"Articles"} }],
   ["/timeline/", { loader: () => import(/* webpackChunkName: "timeline_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/timeline/index.html.js"), meta: {"title":"Timeline"} }],
-  ["/tag/tagnew/", { loader: () => import(/* webpackChunkName: "tag_tagnew_index.html" */"D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/tag/tagnew/index.html.js"), meta: {"title":"Tag tagnew"} }],
 ]);
 
 if (import.meta.webpackHot) {
