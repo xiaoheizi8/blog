@@ -2,8 +2,11 @@
 import { useBlogType } from '@vuepress/plugin-blog/client'
 import ParentLayout from '@vuepress/theme-default/layouts/Layout.vue'
 import ArticleList from '../components/ArticleList.vue'
-
+// import {heart} from "../heart.js";
+// import {onMounted} from "vue";
 const articles = useBlogType('article')
+
+
 </script>
 
 <template>
@@ -15,3 +18,6 @@ const articles = useBlogType('article')
     </template>
   </ParentLayout>
 </template>
+<style scoped>
+
+</style>

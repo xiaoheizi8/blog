@@ -1,5 +1,5 @@
-import comp from "D:/ljwWorkspace/前端/smallVue3Project/vuepress-starter/docs/.vuepress/.temp/pages/404.html.vue"
-const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"en-US\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null,\"excerpt\":\"<p>404 Not Found</p>\\n\"}")
+import comp from "D:/ljwWorkspace/前端/vuepress-starter/docs/.vuepress/.temp/pages/404.html.vue"
+const data = JSON.parse("{\"path\":\"/404.html\",\"title\":\"\",\"lang\":\"zh-CN\",\"frontmatter\":{\"layout\":\"NotFound\"},\"headers\":[],\"git\":{},\"filePathRelative\":null,\"excerpt\":\"<p>404 Not Found</p>\\n\"}")
 export { comp, data }
 
 if (import.meta.webpackHot) {

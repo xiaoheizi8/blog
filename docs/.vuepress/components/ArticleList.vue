@@ -1,4 +1,6 @@
 <script setup>
+import {heart} from "../heart.js";
+import {onMounted} from "vue";
 defineProps({
   /** Article items */
   items: {
@@ -7,12 +9,16 @@ defineProps({
   },
   /** Whether is timeline or not */
   isTimeline: Boolean,
-})
+},
+)
+onMounted(() => {
+  new heart(document.body);
+});
 </script>
 
 <template>
   <div class="article-wrapper">
-    <div v-if="!items.length">Nothing in here.</div>
+    <div v-if="!items.length">这小子很懒什么都没留下</div>
 
     <article
       v-for="{ info, path } in items"
@@ -50,6 +56,40 @@ defineProps({
 
 <style lang="scss">
 @use '@vuepress/theme-default/styles/mixins';
+body {
+  height: 100vh;
+
+ }
+
+.text {
+  position: absolute;
+  z-index: 9999999;
+  font-weight: bold;
+  user-select: none;
+}
+
+@keyframes remove {
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fade-out {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+}
+
+.text {
+  position: absolute;
+  white-space: nowrap;
+  animation: fade-out 1.5s ease-in-out forwards;
+  will-change: transform, opacity; /* 优化动画流畅度 */
+}
 
 .article-wrapper {
   @include mixins.content_wrapper;

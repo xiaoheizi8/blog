@@ -1,33 +1,35 @@
 ---
 home: true
 title: 博客主页
-heroImage: https://vuejs.press/images/hero.png
+heroImage: https://th.bing.com/th/id/OIP.K-4RqDC6zFrpAG31ayDDOgHaHa?rs=1&pid=ImgDetMain
 actions:
-  - text: Get Started
+  - text: 快速启动
     link: /getting-started.html
     type: primary
 
-  - text: Introduction
+  - text: VuePress文档
     link: https://vuejs.press/guide/introduction.html
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 简单为先
+    details: 以Markdown为核心的最小化设置结构，帮助你专注于写作。
+  - title: 基于Vue
+    details: 享受Vue的开发体验，在Markdown中使用Vue组件，并使用Vue开发自定义主题。
+  - title: 高性能
+    details: VuePress为每个页面生成预渲染的静态HTML，页面加载后作为SPA运行。
+  - title: 主题
+    details: 提供开箱即用的默认主题。你也可以选择社区主题或创建自己的主题。
+  - title: 插件
+    details: 灵活的插件API，允许插件为你的网站提供许多即插即用的功能。
+  - title: 打包工具
+    details: 默认打包工具是Vite，同时也支持Webpack。选择你喜欢的！
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: MIT许可 | 版权所有 © 2018-至今 VuePress社区
+
 ---
 
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
+[//]: # (This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.)
 
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
+欢迎来到一朝风月的博客,开源仓库地址:<https://gitee.com/winterfly>
+ 
